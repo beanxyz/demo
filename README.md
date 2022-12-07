@@ -2,6 +2,7 @@
 
 Below is the architecture to be implemented:
 
+https://github.com/beanxyz/demo/blob/master/topology.PNG
 
 The files included are:
 
@@ -20,6 +21,7 @@ The files included are:
 3. Terraform & AWS CLI configured on machine from which the scripts are to be run
 
 # Implement the terraform code:
-terraform init
-terraform plan
+terraform init \
+terraform plan \
 terraform apply
+
