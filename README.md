@@ -26,12 +26,12 @@ terraform plan \
 terraform apply
 
 It will deploy a Nginx server in an ASG behind an application load balancer. 
-At the end of the terraform apply, it will print out the DNS name of the application load balancer.\
+At the end of the terraform apply, it will print out the DNS name of the application load balancer.
 
 We can access the page via http://alb-dns-name
 
 We can use curl to test the health status of the URL. If the status code is 200, it means it's up and running.
-There is a simple script to do the job.\
-e.g\
+There is a simple script to do the job.
+e.g 
 
 ./health_check.sh Demo-ALG-275938888.ap-southeast-2.elb.amazonaws.com
