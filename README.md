@@ -1,8 +1,8 @@
-# Terraform snippet for deploying ASG in private subnet behind ALB
+# Terraform Demo for deploying ASG nginx webserver in the private subnets behind ALB
 
 Below is the architecture to be implemented:
 
-https://github.com/beanxyz/demo/blob/master/topology.PNG
+![image](https://github.com/beanxyz/demo/blob/master/topology.PNG)
 
 The files included are:
 
